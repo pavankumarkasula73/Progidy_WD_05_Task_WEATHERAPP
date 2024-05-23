@@ -1,0 +1,68 @@
+{
+  "sunrise": "07:19",
+  "sunset": "19:32",
+  "temp": {
+    "celsius": "27",
+    "fahrenheit": "42",
+    "comment": "Sunny"
+  },
+  "precipitationData": [
+    {
+      "time": "Now",
+      "ppt": 23,
+      "temp": 27,
+      "wtype": "sunny"
+    },
+    {
+      "time": "11:00",
+      "ppt": 29,
+      "temp": 28,
+      "wtype": "sunny"
+    },
+    {
+      "time": "12:00",
+      "ppt": 58,
+      "temp": 28,
+      "wtype": "cloudy"
+    },
+    {
+      "time": "13:00",
+      "ppt": 75,
+      "temp": 29,
+      "wtype": "cloudy"
+    },
+    {
+      "time": "14:00",
+      "ppt": 33,
+      "temp": 30,
+      "wtype": "sunny"
+    },
+    {
+      "time": "15:00",
+      "ppt": 20,
+      "temp": 29,
+      "wtype": "cloudy"
+    },
+    {
+      "time": "16:00",
+      "ppt": 73,
+      "temp": 29,
+      "wtype": "cloudy"
+    },
+    {
+      "time": "17:00",
+      "ppt": 49,
+      "temp": 28,
+      "wtype": "sunny"
+    }
+  ],
+  "humidity": "82",
+  "wind": "8",
+  "precipitation": "14",
+  "uv": "4",
+  "feels": {
+    "celsius": "30",
+    "fahrenheit": "86"
+  },
+  "chancesofrain": "42"
+}

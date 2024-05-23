@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-nunito;
+}
+
+progress {
+  @apply rounded-full h-2;
+}
+
+progress::-webkit-progress-bar {
+  @apply rounded-full bg-gray-light;
+}
+
+progress::-webkit-progress-value {
+  @apply bg-blue-dark rounded-full;
+}
+
+progress::-moz-progress-bar {
+  @apply rounded-full bg-gray-light;
+}
+
+img,
+svg {
+  @apply select-none pointer-events-none;
+}
+
+button {
+  @apply select-none;
+}
+
+/* For Webkit Browsers: Chrome, Safari, Opera */
+main::-webkit-scrollbar {
+  display: none;
+}
+
+main {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
